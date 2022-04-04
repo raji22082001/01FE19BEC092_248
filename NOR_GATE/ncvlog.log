@@ -1,0 +1,7 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+module nor_gate(a,b,c);
+              |
+ncvlog: *W,RECOMP (/home/adld7/rajeshwari/NOR_GATE/nor_gate_tb.v,24|14): recompiling design unit worklib.nor_gate.
+	First compiled from line 1 of /home/adld7/rajeshwari/NOR_GATE/nor_gate.v.
+ncvlog: Memory Usage - 21.3M program + 28.9M data = 50.2M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 24.8% cpu)
