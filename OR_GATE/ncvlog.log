@@ -1,0 +1,7 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+module or_gate1(a,b,c);
+              |
+ncvlog: *W,RECOMP (/home/adld7/rajeshwari/OR_GATE/or_gate1_tb.v,22|14): recompiling design unit worklib.or_gate1.
+	First compiled from line 1 of /home/adld7/rajeshwari/OR_GATE/or_gate1.v.
+ncvlog: Memory Usage - 21.3M program + 28.9M data = 50.3M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 21.3% cpu)
