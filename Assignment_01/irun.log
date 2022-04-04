@@ -1,0 +1,39 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 15:12:08 IST
+irun
+	tb_parking_system.v
+	parking_system.v
+file: tb_parking_system.v
+	module worklib.tb_parking_system:v
+		errors: 0, warnings: 0
+file: parking_system.v
+	module worklib.parking_system:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_parking_system
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.parking_system:v <0x68e2cdeb>
+			streams:   0, words:     0
+		worklib.tb_parking_system:v <0x19aefd06>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:          13      13
+		Scalar wires:        6       -
+		Vectored wires:      2       -
+		Always blocks:       4       4
+		Initial blocks:      2       2
+		Cont. assignments:   0       2
+	Writing initial simulation snapshot: worklib.tb_parking_system:v
+Loading snapshot worklib.tb_parking_system:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 15:12:09 IST  (total: 00:00:01)

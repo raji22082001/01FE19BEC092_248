@@ -1,0 +1,14 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_parking_system.GREEN_LED tb_parking_system.HEX_1 tb_parking_system.HEX_2 tb_parking_system.RED_LED tb_parking_system.clk tb_parking_system.password_1 tb_parking_system.password_2 tb_parking_system.reset_n tb_parking_system.sensor_entrance tb_parking_system.sensor_exit
+Created probe 1
+ncsim> run
+Simulation interrupted at 3144364940 NS + 0
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 225.1M data = 263.8M total (4855.9M Peak)
+ncsim: CPU Usage - 15.5s system + 82.0s user = 97.6s total (117.5s, 83.0% cpu)
