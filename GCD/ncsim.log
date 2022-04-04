@@ -1,0 +1,25 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm GCD_test.A GCD_test.B GCD_test.clk GCD_test.data_in GCD_test.done GCD_test.eq GCD_test.gt GCD_test.ldA GCD_test.ldB GCD_test.lt GCD_test.sel1 GCD_test.sel2 GCD_test.sel_in GCD_test.start
+Created probe 1
+ncsim> run
+                   0    x x
+                   5    x 0
+                  15  143 0
+                  45   65 0
+                  65   52 0
+                  75   39 0
+                  85   26 0
+                  95   13 0
+                  97   13 1
+Simulation complete via $finish(1) at time 1003 NS + 0
+./GCD_TB.v:12 #1000 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 178.1M data = 216.7M total (221.3M Peak)
+ncsim: CPU Usage - 1.4s system + 0.9s user = 2.3s total (52.9s, 4.4% cpu)
