@@ -1,0 +1,6 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+input a,b;
+    |
+ncvlog: *E,EXPSMC (/home/adld7/rajeshwari/AND/and1.v,2|4): expecting a semicolon (';') [12.1(IEEE)].
+ncvlog: Memory Usage - 21.3M program + 28.5M data = 49.8M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.8s, 2.5% cpu)
