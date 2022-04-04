@@ -1,0 +1,10 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_tic_tac_toe.clock tb_tic_tac_toe.computer_position tb_tic_tac_toe.pc tb_tic_tac_toe.play tb_tic_tac_toe.player_position tb_tic_tac_toe.pos_led1 tb_tic_tac_toe.pos_led2 tb_tic_tac_toe.pos_led3 tb_tic_tac_toe.pos_led4 tb_tic_tac_toe.pos_led5 tb_tic_tac_toe.pos_led6 tb_tic_tac_toe.pos_led7 tb_tic_tac_toe.pos_led8 tb_tic_tac_toe.pos_led9 tb_tic_tac_toe.reset tb_tic_tac_toe.who
+Created probe 1
+ncsim> 

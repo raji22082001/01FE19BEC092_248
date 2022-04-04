@@ -1,0 +1,70 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 10:39:33 IST
+irun
+	tic_tac_toe_game.v
+	tb_tic_tac_toe.v
+file: tic_tac_toe_game.v
+	module worklib.tic_tac_toe_game:v
+		errors: 0, warnings: 0
+	module worklib.position_registers:v
+		errors: 0, warnings: 0
+	module worklib.fsm_controller:v
+		errors: 0, warnings: 0
+	module worklib.nospace_detector:v
+		errors: 0, warnings: 0
+	module worklib.illegal_move_detector:v
+		errors: 0, warnings: 0
+	module worklib.position_decoder:v
+		errors: 0, warnings: 0
+	module worklib.winner_detector:v
+		errors: 0, warnings: 0
+	module worklib.winner_detect_3:v
+		errors: 0, warnings: 0
+file: tb_tic_tac_toe.v
+	module worklib.tb_tic_tac_toe:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_tic_tac_toe
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fsm_controller:v <0x521c9bdf>
+			streams:   0, words:     0
+		worklib.illegal_move_detector:v <0x1c40fc79>
+			streams:   0, words:     0
+		worklib.nospace_detector:v <0x36ea97c2>
+			streams:   0, words:     0
+		worklib.position_decoder:v <0x182d3d12>
+			streams:   0, words:     0
+		worklib.position_decoder:v <0x75a2bb8e>
+			streams:   0, words:     0
+		worklib.position_registers:v <0x059ed6b2>
+			streams:   0, words:     0
+		worklib.tb_tic_tac_toe:v <0x1f4f200d>
+			streams:   0, words:     0
+		worklib.tic_tac_toe_game:v <0x3996fa9e>
+			streams:   0, words:     0
+		worklib.winner_detect_3:v <0x4789cc89>
+			streams:   0, words:     0
+		worklib.winner_detector:v <0x56df78e8>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:             17       9
+		Registers:           21      20
+		Scalar wires:       116       -
+		Expanded wires:      16       1
+		Vectored wires:       7       -
+		Always blocks:       13      12
+		Initial blocks:       2       2
+		Cont. assignments:    0      44
+	Writing initial simulation snapshot: worklib.tb_tic_tac_toe:v
+Loading snapshot worklib.tb_tic_tac_toe:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 10:39:42 IST  (total: 00:00:09)
