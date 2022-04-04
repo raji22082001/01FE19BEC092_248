@@ -1,0 +1,49 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 15:26:48 IST
+irun
+	pipel_test.v
+	pipe_ex.v
+file: pipel_test.v
+	module worklib.pipel_test:v
+		errors: 0, warnings: 0
+file: pipe_ex.v
+	module worklib.pipe_ex:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		pipel_test
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.pipe_ex:v <0x43574a84>
+			streams:   8, words:  3775
+		worklib.pipel_test:v <0x7d5a6221>
+			streams:   5, words:  7244
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:          11      11
+		Scalar wires:        1       -
+		Vectored wires:      5       -
+		Always blocks:       4       4
+		Initial blocks:      3       3
+		Cont. assignments:   0       1
+	Writing initial simulation snapshot: worklib.pipel_test:v
+Loading snapshot worklib.pipel_test:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,DVEXACC: some objects excluded from $dumpvars due to access restrictions, use +access+r on command line for access to all objects.
+            File: ./pipel_test.v, line = 18, pos = 8
+           Scope: pipel_test
+            Time: 0 FS + 0
+
+Time:                    0,F=                              x
+Time:                   50,F=                             75
+Time:                   70,F=                             66
+Time:                   90,F=                            112
+Simulation complete via $finish(1) at time 300 NS + 0
+./pipel_test.v:20 #300 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 15:26:48 IST  (total: 00:00:00)
