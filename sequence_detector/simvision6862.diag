@@ -1,0 +1,90 @@
+*** Message Type: info ***
+When: Mon Apr 04 04:58:39 PM IST 2022
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s051
+User: adld7
+Host: localhost
+Platform: Linux/x86_64/2.6.32-431.el6.x86_64
+Started: Mon Apr 04 04:58:39 PM IST 2022
+Command: /cad_area/install/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:45800 -64BIT
+Work Directory: /home/adld7/rajeshwari/sequence_detector
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:40 PM IST 2022
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:41 PM IST 2022
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:41 PM IST 2022
+Exit Simulator: abnormal
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+ 
+*** Message Type: error ***
+When: Mon Apr 04 04:58:41 PM IST 2022
+Simulator Crashed:
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+Outstanding STRAP Requests:
+        strap::get g . -ck
+        strap::get g . -sa
+        strap::get g . -xu
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:41 PM IST 2022
+Connect to Simulator
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:43 PM IST 2022
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:58:49 PM IST 2022
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 05:01:33 PM IST 2022
+SimVision Exit.
+ 

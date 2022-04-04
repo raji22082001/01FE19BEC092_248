@@ -1,0 +1,35 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 17:06:10 IST
+irun
+	testbench_MOORE_FSM_sequence.v
+	MOORE_FSM.v
+Recompiling... reason: file './MOORE_FSM.v' is newer than expected.
+	expected: Mon Apr  4 16:38:25 2022
+	actual:   Mon Apr  4 16:46:47 2022
+file: MOORE_FSM.v
+	module worklib.sequence_Detector_MOORE_Verilog:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_sequence_Detector_Moore_FSM_verilog
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.sequence_Detector_MOORE_Verilog:v <0x46ff1146>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		         Instances  Unique
+		Modules:         2       2
+		Registers:       6       6
+		Scalar wires:    3       -
+		Always blocks:   3       3
+		Initial blocks:  2       2
+	Writing initial simulation snapshot: worklib.tb_sequence_Detector_Moore_FSM_verilog:v
+Loading snapshot worklib.tb_sequence_Detector_Moore_FSM_verilog:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 17:06:11 IST  (total: 00:00:01)

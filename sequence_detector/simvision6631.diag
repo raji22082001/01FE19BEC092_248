@@ -1,0 +1,92 @@
+*** Message Type: info ***
+When: Mon Apr 04 04:51:39 PM IST 2022
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s051
+User: adld7
+Host: localhost
+Platform: Linux/x86_64/2.6.32-431.el6.x86_64
+Started: Mon Apr 04 04:51:39 PM IST 2022
+Command: /cad_area/install/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:50036 -64BIT
+Work Directory: /home/adld7/rajeshwari/sequence_detector
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:51:40 PM IST 2022
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:51:40 PM IST 2022
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:51:41 PM IST 2022
+Connect to Simulator
+      Design: worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s051
+        User: adld7
+        Host: localhost
+Time Started: Mon Apr 04 04:51:36 PM IST 2022
+  Process ID: 6628
+   Directory: /home/adld7/rajeshwari/sequence_detector
+     Command: ncsim -gui -cdslib /home/adld7/rajeshwari/sequence_detector/cds.lib -logfile ncsim.log -errormax 15 -status worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:51:45 PM IST 2022
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:52:05 PM IST 2022
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:52:34 PM IST 2022
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:53:58 PM IST 2022
+Exit NC-Sim: user
+      Design: worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s051
+        User: adld7
+        Host: localhost
+Time Started: Mon Apr 04 04:51:36 PM IST 2022
+  Process ID: 6628
+   Directory: /home/adld7/rajeshwari/sequence_detector
+     Command: ncsim -gui -cdslib /home/adld7/rajeshwari/sequence_detector/cds.lib -logfile ncsim.log -errormax 15 -status worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+
+ 
+*** Message Type: error ***
+When: Mon Apr 04 04:53:58 PM IST 2022
+NC-Sim Crashed:
+      Design: worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s051
+        User: adld7
+        Host: localhost
+Time Started: Mon Apr 04 04:51:36 PM IST 2022
+  Process ID: 6628
+   Directory: /home/adld7/rajeshwari/sequence_detector
+     Command: ncsim -gui -cdslib /home/adld7/rajeshwari/sequence_detector/cds.lib -logfile ncsim.log -errormax 15 -status worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+      Design: worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:       ncsim(64)       15.20-s051
+        User: adld7
+        Host: localhost
+Time Started: Mon Apr 04 04:51:36 PM IST 2022
+  Process ID: 6628
+   Directory: /home/adld7/rajeshwari/sequence_detector
+     Command: ncsim -gui -cdslib /home/adld7/rajeshwari/sequence_detector/cds.lib -logfile ncsim.log -errormax 15 -status worklib.tb_sequence_Detector_Moore_FSM_verilog:module
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Mon Apr 04 04:54:19 PM IST 2022
+SimVision Exit.
+ 

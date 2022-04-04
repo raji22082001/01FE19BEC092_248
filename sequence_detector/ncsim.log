@@ -1,0 +1,9 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 176.5M data = 215.2M total (215.2M Peak)
+ncsim: CPU Usage - 0.5s system + 0.4s user = 0.9s total (32.4s, 2.8% cpu)
