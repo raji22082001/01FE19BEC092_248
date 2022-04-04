@@ -1,0 +1,19 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 17:32:44 IST
+irun
+	full_adder_tb.v
+	full_adder.v
+file: full_adder_tb.v
+	module worklib.full_adder_tb:v
+		errors: 0, warnings: 0
+	module worklib.full_adder:v
+		errors: 0, warnings: 0
+file: full_adder.v
+module full_adder(a,b,c,sum,carry);
+                |
+ncvlog: *W,RECOME (full_adder.v,1|16): recompiling design unit worklib.full_adder:v.
+	First compiled from line 44 of full_adder_tb.v.
+ncvlog: *E,DUPUNI: Unit "worklib.full_adder:v" multiply defined in files "full_adder_tb.v" and "full_adder.v".
+ncvlog: *E,MNPDEC: Module name (full_adder) previously declared. Use -ALLOWREDEFINITION option for duplicate module names.
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 17:32:45 IST  (total: 00:00:01)
