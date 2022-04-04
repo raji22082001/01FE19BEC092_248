@@ -1,0 +1,35 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm RAM_test.myseed
+Created probe 1
+ncsim> run
+Address:     0,Data:    0
+Address:   960,Data:    0
+Address:   482,Data:    0
+Address:   693,Data:    0
+Address:   246,Data:    0
+Address:   228,Data:    0
+Address:   148,Data:    0
+Address:   767,Data:    0
+Address:   355,Data:    0
+Address:   259,Data:    0
+Address:    21,Data:    0
+Address:   872,Data:    0
+Address:   758,Data:    0
+Address:   193,Data:    0
+Address:   909,Data:    0
+Address:   632,Data:    0
+Address:   719,Data:    0
+Address:   214,Data:    0
+Address:    67,Data:    0
+Address:   908,Data:    0
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 175.9M data = 214.5M total (218.1M Peak)
+ncsim: CPU Usage - 0.8s system + 0.5s user = 1.3s total (33.2s, 4.0% cpu)
