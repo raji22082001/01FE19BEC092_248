@@ -1,0 +1,6 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+end
+  |
+ncvlog: *E,EXPENM (/home/adld7/rajeshwari/NAND_GATE/nand_gate.v,5|2): expecting the keyword 'endmodule' [12.1(IEEE)].
+ncvlog: Memory Usage - 21.3M program + 28.5M data = 49.8M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 37.3% cpu)

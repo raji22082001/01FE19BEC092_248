@@ -1,0 +1,22 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 17:55:44 IST
+irun
+	nand_gate_tb.v
+	nand_gate.v
+file: nand_gate_tb.v
+	module worklib.nand_gate_tb:v
+		errors: 0, warnings: 0
+	module worklib.nand_gate:v
+		errors: 0, warnings: 0
+file: nand_gate.v
+module nand_gate(a,b,y);
+               |
+ncvlog: *W,RECOME (nand_gate.v,1|15): recompiling design unit worklib.nand_gate:v.
+	First compiled from line 22 of nand_gate_tb.v.
+end
+  |
+ncvlog: *E,EXPENM (nand_gate.v,5|2): expecting the keyword 'endmodule' [12.1(IEEE)].
+	module worklib.nand_gate:v
+		errors: 1, warnings: 1
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 17:55:45 IST  (total: 00:00:01)
