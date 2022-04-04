@@ -1,0 +1,14 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 18:18:42 IST
+irun
+	mux_gate1_tb.v
+	mux_gate1.v
+file: mux_gate1.v
+module mux_gate1(S0,I0,I1,Y);
+               |
+ncvlog: *W,RECOME (mux_gate1.v,1|15): recompiling design unit worklib.mux_gate1:v.
+	First compiled from line 18 of mux_gate1_tb.v.
+ncvlog: *E,DUPUNI: Unit "worklib.mux_gate1:v" multiply defined in files "mux_gate1_tb.v" and "mux_gate1.v".
+ncvlog: *E,MNPDEC: Module name (mux_gate1) previously declared. Use -ALLOWREDEFINITION option for duplicate module names.
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 18:18:42 IST  (total: 00:00:00)
