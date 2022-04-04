@@ -1,0 +1,7 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+module decoder(out2,in);
+             |
+ncvlog: *W,RECOMP (/home/adld7/rajeshwari/decoder/decoder_tb.v,26|13): recompiling design unit worklib.decoder.
+	First compiled from line 1 of /home/adld7/rajeshwari/decoder/decoder.v.
+ncvlog: Memory Usage - 21.3M program + 28.9M data = 50.3M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 22.3% cpu)

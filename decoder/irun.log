@@ -1,0 +1,19 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 17:25:57 IST
+irun
+	decoder_tb.v
+	decoder.v
+file: decoder_tb.v
+	module worklib.decoder_tb:v
+		errors: 0, warnings: 0
+	module worklib.decoder:v
+		errors: 0, warnings: 0
+file: decoder.v
+module decoder(out2,in);
+             |
+ncvlog: *W,RECOME (decoder.v,1|13): recompiling design unit worklib.decoder:v.
+	First compiled from line 26 of decoder_tb.v.
+ncvlog: *E,DUPUNI: Unit "worklib.decoder:v" multiply defined in files "decoder_tb.v" and "decoder.v".
+ncvlog: *E,MNPDEC: Module name (decoder) previously declared. Use -ALLOWREDEFINITION option for duplicate module names.
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 17:25:58 IST  (total: 00:00:01)
