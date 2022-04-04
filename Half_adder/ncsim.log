@@ -1,0 +1,19 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm half_adder_tb.a half_adder_tb.b half_adder_tb.carry half_adder_tb.sum
+Created probe 1
+ncsim> run
+a=0 b=0 sum=0 carry=0
+a=0 b=1 sum=1 carry=0
+a=1 b=0 sum=1 carry=0
+a=1 b=1 sum=0 carry=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 183.6M data = 222.2M total (225.8M Peak)
+ncsim: CPU Usage - 0.5s system + 0.3s user = 0.7s total (26.9s, 2.7% cpu)
