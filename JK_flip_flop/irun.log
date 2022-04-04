@@ -1,0 +1,19 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 04, 2022 at 17:41:44 IST
+irun
+	jkff_tb.v
+	jkff.v
+file: jkff_tb.v
+	module worklib.jkff_tb:v
+		errors: 0, warnings: 0
+	module worklib.jkff:v
+		errors: 0, warnings: 0
+file: jkff.v
+module jkff(input reset,input clk,input j,input k,output reg q,output qnot);
+          |
+ncvlog: *W,RECOME (jkff.v,1|10): recompiling design unit worklib.jkff:v.
+	First compiled from line 18 of jkff_tb.v.
+ncvlog: *E,DUPUNI: Unit "worklib.jkff:v" multiply defined in files "jkff_tb.v" and "jkff.v".
+ncvlog: *E,MNPDEC: Module name (jkff) previously declared. Use -ALLOWREDEFINITION option for duplicate module names.
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 04, 2022 at 17:41:44 IST  (total: 00:00:00)

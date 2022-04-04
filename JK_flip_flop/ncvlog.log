@@ -1,0 +1,7 @@
+ncvlog(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+module jkff(input reset,input clk,input j,input k,output reg q,output qnot);
+          |
+ncvlog: *W,RECOMP (/home/adld7/rajeshwari/JK_flip_flop/jkff_tb.v,18|10): recompiling design unit worklib.jkff.
+	First compiled from line 1 of /home/adld7/rajeshwari/JK_flip_flop/jkff.v.
+ncvlog: Memory Usage - 21.3M program + 28.9M data = 50.3M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 30.2% cpu)

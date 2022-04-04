@@ -1,0 +1,31 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm jkff_tb.clk jkff_tb.j jkff_tb.k jkff_tb.q jkff_tb.qnot jkff_tb.reset
+Created probe 1
+ncsim> run
+                   0j=1 k=1 q=x qnot=x
+                   1j=1 k=1 q=0 qnot=1
+                   5j=1 k=1 q=1 qnot=0
+                   7j=1 k=1 q=0 qnot=1
+                   9j=1 k=1 q=1 qnot=0
+                  11j=1 k=1 q=0 qnot=1
+                  13j=1 k=1 q=1 qnot=0
+                  15j=1 k=1 q=0 qnot=1
+                  17j=1 k=1 q=1 qnot=0
+                  19j=1 k=1 q=0 qnot=1
+                  21j=1 k=1 q=1 qnot=0
+                  23j=1 k=1 q=0 qnot=1
+                  25j=1 k=1 q=1 qnot=0
+                  27j=1 k=1 q=0 qnot=1
+                  29j=1 k=1 q=1 qnot=0
+Simulation complete via $finish(1) at time 30 NS + 0
+./jkff_tb.v:13 #25 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 182.6M data = 221.2M total (224.8M Peak)
+ncsim: CPU Usage - 0.7s system + 0.4s user = 1.1s total (37.7s, 2.8% cpu)
